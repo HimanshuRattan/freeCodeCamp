@@ -57,4 +57,12 @@ As we know, the input are stored by default as a string, so we can use the map()
 
 NOTE: Inside the split() function, we can add the separator for the input, por example, if we want to separate each value by a comma, we should write input().split(",") and so on.
 
+NOTE: To take n comma separated inputs, use:
+```
+list = [i for i in input().split(",")]
+```
+This will store all the values as a string in a list.
+To take multiple space separate values, replace the "," with " ".
+This will keep taking the values as inputs until you hit enter.
+
 <a href='https://docs.python.org/3/library/functions.html#input' target='_blank' rel='nofollow'>Official Docs</a>
