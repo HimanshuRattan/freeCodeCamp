@@ -1,0 +1,29 @@
+---
+title: alt Attribute
+---
+The ```alt``` attribute is used inside the ```img``` tag. 
+
+For example when we use an img tag, it is required to use the alt attribute with it.
+If the image is located at `https://avatars0.githubusercontent.com/u/9892522?v=4&s=400` , use:
+
+
+```html
+<html>
+  <head>
+    <title>Img Src Attribute Example</title>
+  </head>
+  <body>
+    <img src="https://avatars0.githubusercontent.com/u/9892522?v=4&s=400" alt="free code camp logo">
+  </body>
+</html>
+```
+
+The above code displays:
+
+![The freeCodeCamp Avatar](https://avatars0.githubusercontent.com/u/9892522?v=4&s=400?raw=true)
+
+But, if for some reason, the user is unable to view the image, the browser will show him/her the value provided inside the ```alt``` attribute.
+
+Hence, the user won't miss out on anything.
+The practice of using ```alt``` tag is really helpful and acknowledged by modern developers.
+
