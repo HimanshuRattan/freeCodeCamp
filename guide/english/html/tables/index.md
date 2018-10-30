@@ -93,6 +93,41 @@ Result:
 	</table>
 
 
+### Cells that span more than 1 column
+```html
+<!DOCTYPE html>
+    <html>
+	<body>
+	   <table>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Telephone</th>
+                </tr>
+                <tr>
+                    <td>Bill Gates</td>
+                    <td>55577854</td>
+                    <td>55577855</td>
+                </tr>
+           </table>
+	</body>
+   </html>
+```
+Result:
+<table>
+        <tr>
+                <th>Name</th>
+                <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+                <td>Bill Gates</td>
+                <td>55577854</td>
+                <td>55577855</td>
+        </tr>
+</table>
+
+
+
+
 #### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table' target='_blank' rel='nofollow'>MDN Article on the HTML <table> tag</a>
