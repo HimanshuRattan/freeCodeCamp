@@ -29,6 +29,28 @@ and is displayed as:
 1. February
 1. March
 
+
+There are some other types of ordered lists as well. You can implement them using the type attribute. For example,
+```
+<ol type="A">
+  <li>January</li>
+  <li>February</li>
+  <li>March</li>
+</ol>
+```
+is displayed as:
+A. January
+B. Februray
+C. March
+
+Some other examples of ordered lists:
+-```<ol type="a">```
+-```<ol type="I">```
+-```<ol type="i">```
+By default, the type is set as ```<ol type="1">```
+
+
+
 An unordered list is written as
 
 
